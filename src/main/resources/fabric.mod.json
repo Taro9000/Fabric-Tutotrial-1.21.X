@@ -3,9 +3,9 @@
 	"id": "tutorial-mod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "Tutorial Mod by me for me and possibly my friends",
+	"description": "Tutorial Mod by Taro9000 for me and possibly my friends",
 	"authors": [
-		"tarou"
+		"Taro9000"
 	],
 	"contact": {
 		"homepage": "https://editor.p5js.org/Taro9000/sketches",
