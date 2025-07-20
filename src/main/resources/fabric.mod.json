@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "Tutorial Mod by me for me and possibly my friends",
+	"authors": [
+		"tarou"
+	],
+	"contact": {
+		"homepage": "https://editor.p5js.org/Taro9000/sketches",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tarou.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.tarou.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.tarou.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
