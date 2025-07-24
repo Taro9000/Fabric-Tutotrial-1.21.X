@@ -16,7 +16,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.tarou.tutorialmod.item.ModItems;
 import net.tarou.tutorialmod.util.ModTags;
 
 import java.util.List;
