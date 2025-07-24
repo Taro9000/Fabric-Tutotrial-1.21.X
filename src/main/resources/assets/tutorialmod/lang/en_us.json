@@ -1,0 +1,29 @@
+{
+  "item.tutorialmod.pink_garnet": "Pink Garnet",
+  "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialmod.chisel": "Unstripping Chisel",
+  "item.tutorialmod.fried_egg": "Fried Egg",
+  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
+
+
+  "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "block.tutorialmod.magic_block": "Magic Block",
+
+
+  "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This item toggles the strip of strippable Blocks!",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.tutorialmod.friend_egg.tooltip": "This is delicious!"
+}
