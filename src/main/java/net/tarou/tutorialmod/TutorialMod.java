@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tarou.tutorialmod.block.ModBlocks;
 import net.tarou.tutorialmod.item.ModItemGroups;
 import net.tarou.tutorialmod.item.ModItems;
+import net.tarou.tutorialmod.util.ModComponents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 
+		ModComponents.initialize();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
